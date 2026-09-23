@@ -1,0 +1,14 @@
+{
+  "clases": [
+    { "id": "cl1",  "gymId": "g1", "nombre": "Spinning",    "monitor": "Carlos Ruiz",    "descripcion": "Ciclismo indoor de alta intensidad.", "duracion": 60, "plazas": 20, "dia": "Lunes",     "hora": "09:00", "inscritos": [], "fechaFin": null },
+    { "id": "cl2",  "gymId": "g1", "nombre": "CrossFit",    "monitor": "Laura Vega",     "descripcion": "Entrenamiento funcional de alta intensidad.", "duracion": 45, "plazas": 15, "dia": "Miércoles", "hora": "18:30", "inscritos": [], "fechaFin": null },
+    { "id": "cl3",  "gymId": "g1", "nombre": "Yoga",        "monitor": "Marta Soler",    "descripcion": "Posturas, respiración y meditación.", "duracion": 75, "plazas": 18, "dia": "Viernes",   "hora": "10:00", "inscritos": [], "fechaFin": null },
+    { "id": "cl4",  "gymId": "g1", "nombre": "Body Pump",   "monitor": "Jorge Navarro",  "descripcion": "Barras y pesas al ritmo de la música.", "duracion": 55, "plazas": 25, "dia": "Jueves",    "hora": "19:00", "inscritos": [], "fechaFin": null },
+    { "id": "cl5",  "gymId": "g2", "nombre": "Boxeo",       "monitor": "Andrés Morales", "descripcion": "Técnica de boxeo adaptada al fitness.", "duracion": 60, "plazas": 12, "dia": "Martes",    "hora": "20:00", "inscritos": [], "fechaFin": null },
+    { "id": "cl6",  "gymId": "g2", "nombre": "Pilates",     "monitor": "Sofía Leal",     "descripcion": "Fortalece el core y mejora la postura.", "duracion": 60, "plazas": 10, "dia": "Lunes",     "hora": "11:00", "inscritos": [], "fechaFin": null },
+    { "id": "cl7",  "gymId": "g2", "nombre": "GAP",         "monitor": "Raúl Méndez",    "descripcion": "Glúteos, abdominales y piernas.", "duracion": 45, "plazas": 20, "dia": "Jueves",    "hora": "18:00", "inscritos": [], "fechaFin": null },
+    { "id": "cl8",  "gymId": "g3", "nombre": "Zumba",       "monitor": "Patricia Alba",  "descripcion": "Baile fitness con ritmos latinos.", "duracion": 55, "plazas": 30, "dia": "Miércoles", "hora": "10:30", "inscritos": [], "fechaFin": null },
+    { "id": "cl9",  "gymId": "g3", "nombre": "TRX",         "monitor": "Iván Serrano",   "descripcion": "Entrenamiento en suspensión con el peso corporal.", "duracion": 45, "plazas": 16, "dia": "Viernes", "hora": "17:00", "inscritos": [], "fechaFin": null },
+    { "id": "cl10", "gymId": "g3", "nombre": "Meditación",  "monitor": "Ana Castillo",   "descripcion": "Mindfulness y respiración para reducir el estrés.", "duracion": 45, "plazas": 15, "dia": "Martes",  "hora": "08:30", "inscritos": [], "fechaFin": null }
+  ]
+}

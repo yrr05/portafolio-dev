@@ -1,0 +1,23 @@
+.eventos-page { max-width: 960px; margin: 0 auto; padding: 32px 24px 60px; }
+.page-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 28px; flex-wrap: wrap; gap: 12px; }
+.page-title    { font-family: var(--font-hd); font-size: 2rem; letter-spacing: 1px; color: var(--text); margin: 0; }
+.page-subtitle { color: var(--muted); font-size: .9rem; margin: 6px 0 0; }
+
+.eventos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+
+.evento-card { display: flex; flex-direction: column; gap: 10px; }
+.evento-gym-tag { font-size: .72rem; text-transform: uppercase; letter-spacing: 1px; color: var(--gold); font-weight: 700; }
+.evento-card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.evento-nombre { font-size: 1rem; font-weight: 700; color: var(--text); margin: 0; }
+.evento-meta { display: flex; gap: 12px; font-size: .8rem; color: var(--muted); }
+.evento-monitores { font-size: .82rem; color: var(--muted); }
+.evento-desc { font-size: .83rem; color: var(--text-soft, var(--muted)); line-height: 1.5; }
+.evento-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+
+/* Form */
+.form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.checkbox-label { display: flex; align-items: center; gap: 8px; font-weight: 500; font-size: .88rem; color: var(--text); cursor: pointer; }
+.checkbox-label input { width: 16px; height: 16px; accent-color: var(--gold); }
+
+.empty-state { text-align: center; padding: 60px 20px; color: var(--muted); }
+.empty-icon-svg { display: flex; justify-content: center; margin-bottom: 12px; color: var(--muted); }

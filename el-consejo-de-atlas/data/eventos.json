@@ -1,0 +1,88 @@
+{
+  "eventos": [
+    {
+      "id": "ev1",
+      "gymId": "g1",
+      "gymNombre": "Kraftwerk",
+      "nombre": "Maratón Kraftwerk",
+      "fecha": "2026-06-14",
+      "descripcion": "Carrera de 10 km por el parque. Inscripción gratuita para socios.",
+      "monitores": "Carlos Ruiz, Laura Vega",
+      "duracion": 180,
+      "plazas": 100,
+      "sinLimite": false,
+      "inscritos": [],
+      "creadoPor": "u0"
+    },
+    {
+      "id": "ev2",
+      "gymId": "g1",
+      "gymNombre": "Kraftwerk",
+      "nombre": "Torneo de CrossFit",
+      "fecha": "2026-07-05",
+      "descripcion": "Competición interna de WODs. Trofeos para los tres primeros.",
+      "monitores": "Laura Vega",
+      "duracion": 120,
+      "plazas": 30,
+      "sinLimite": false,
+      "inscritos": [],
+      "creadoPor": "u0"
+    },
+    {
+      "id": "ev3",
+      "gymId": "g2",
+      "gymNombre": "Hércules",
+      "nombre": "Velada de Boxeo",
+      "fecha": "2026-06-21",
+      "descripcion": "Exhibición de boxeo entre alumnos del gimnasio. Entrada libre.",
+      "monitores": "Andrés Morales",
+      "duracion": 90,
+      "plazas": 80,
+      "sinLimite": false,
+      "inscritos": [],
+      "creadoPor": "u01"
+    },
+    {
+      "id": "ev4",
+      "gymId": "g2",
+      "gymNombre": "Hércules",
+      "nombre": "Retiro de Pilates",
+      "fecha": "2026-08-02",
+      "descripcion": "Fin de semana de Pilates y meditación en la sierra.",
+      "monitores": "Sofía Leal",
+      "duracion": 480,
+      "plazas": 20,
+      "sinLimite": false,
+      "inscritos": [],
+      "creadoPor": "u01"
+    },
+    {
+      "id": "ev5",
+      "gymId": "g3",
+      "gymNombre": "VivaGym",
+      "nombre": "Festival Zumba",
+      "fecha": "2026-06-28",
+      "descripcion": "Maratón de baile con varios monitores invitados. Abierto al público.",
+      "monitores": "Patricia Alba, Ana Castillo",
+      "duracion": 240,
+      "plazas": 0,
+      "sinLimite": true,
+      "inscritos": [],
+      "creadoPor": "u02"
+    },
+    {
+      "id": "ev6",
+      "gymId": null,
+      "gymNombre": "Atlas (red completa)",
+      "nombre": "Congreso Atlas 2026",
+      "fecha": "2026-09-15",
+      "descripcion": "Evento anual de la red Atlas: ponencias, talleres y networking.",
+      "monitores": "Varios ponentes",
+      "duracion": 600,
+      "plazas": 500,
+      "sinLimite": false,
+      "inscritos": [],
+      "creadoPor": null
+    }
+  ]
+}

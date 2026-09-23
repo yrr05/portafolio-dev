@@ -1,0 +1,32 @@
+{
+  "ejercicios": [
+    { "id": "ej1",  "nombre": "Press de banca",            "grupoMuscular": "Pecho",    "tipo": "Barra" },
+    { "id": "ej2",  "nombre": "Sentadilla con barra",       "grupoMuscular": "Piernas",  "tipo": "Barra" },
+    { "id": "ej3",  "nombre": "Peso muerto",                "grupoMuscular": "Espalda",  "tipo": "Barra" },
+    { "id": "ej4",  "nombre": "Press militar",              "grupoMuscular": "Hombros",  "tipo": "Barra" },
+    { "id": "ej5",  "nombre": "Remo con barra",             "grupoMuscular": "Espalda",  "tipo": "Barra" },
+    { "id": "ej6",  "nombre": "Curl de bíceps",             "grupoMuscular": "Bíceps",   "tipo": "Mancuernas" },
+    { "id": "ej7",  "nombre": "Press de hombro",            "grupoMuscular": "Hombros",  "tipo": "Mancuernas" },
+    { "id": "ej8",  "nombre": "Remo con mancuerna",         "grupoMuscular": "Espalda",  "tipo": "Mancuernas" },
+    { "id": "ej9",  "nombre": "Extensión de tríceps",       "grupoMuscular": "Tríceps",  "tipo": "Mancuernas" },
+    { "id": "ej10", "nombre": "Aperturas con mancuernas",   "grupoMuscular": "Pecho",    "tipo": "Mancuernas" },
+    { "id": "ej11", "nombre": "Dominadas",                  "grupoMuscular": "Espalda",  "tipo": "Calistenia" },
+    { "id": "ej12", "nombre": "Fondos en paralelas",        "grupoMuscular": "Tríceps",  "tipo": "Calistenia" },
+    { "id": "ej13", "nombre": "Flexiones",                  "grupoMuscular": "Pecho",    "tipo": "Calistenia" },
+    { "id": "ej14", "nombre": "Plancha frontal",            "grupoMuscular": "Core",     "tipo": "Calistenia" },
+    { "id": "ej15", "nombre": "Crunch abdominal",           "grupoMuscular": "Core",     "tipo": "Calistenia" },
+    { "id": "ej16", "nombre": "Elevación de piernas",       "grupoMuscular": "Core",     "tipo": "Calistenia" },
+    { "id": "ej17", "nombre": "Sentadilla",                 "grupoMuscular": "Piernas",  "tipo": "Calistenia" },
+    { "id": "ej18", "nombre": "Zancadas",                   "grupoMuscular": "Piernas",  "tipo": "Calistenia" },
+    { "id": "ej19", "nombre": "Prensa de piernas",          "grupoMuscular": "Piernas",  "tipo": "Máquina" },
+    { "id": "ej20", "nombre": "Extensión de cuádriceps",    "grupoMuscular": "Piernas",  "tipo": "Máquina" },
+    { "id": "ej21", "nombre": "Curl de isquiotibiales",     "grupoMuscular": "Piernas",  "tipo": "Máquina" },
+    { "id": "ej22", "nombre": "Jalón al pecho",             "grupoMuscular": "Espalda",  "tipo": "Máquina" },
+    { "id": "ej23", "nombre": "Remo en polea baja",         "grupoMuscular": "Espalda",  "tipo": "Máquina" },
+    { "id": "ej24", "nombre": "Elevación de gemelos",       "grupoMuscular": "Piernas",  "tipo": "Máquina" },
+    { "id": "ej25", "nombre": "Burpees",                    "grupoMuscular": "Full Body", "tipo": "Cardio" },
+    { "id": "ej26", "nombre": "Mountain climbers",          "grupoMuscular": "Core",     "tipo": "Cardio" },
+    { "id": "ej27", "nombre": "Saltos al cajón",            "grupoMuscular": "Piernas",  "tipo": "Cardio" },
+    { "id": "ej28", "nombre": "Russian twist",              "grupoMuscular": "Core",     "tipo": "Calistenia" }
+  ]
+}

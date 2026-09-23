@@ -1,0 +1,569 @@
+{
+  "gyms": [
+    {
+      "id": "g1",
+      "nombre": "Kraftwerk",
+      "ciudad": "Madrid"
+    },
+    {
+      "id": "g2",
+      "nombre": "Hércules",
+      "ciudad": "Barcelona"
+    },
+    {
+      "id": "g3",
+      "nombre": "VivaGym",
+      "ciudad": "Sevilla"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "u0",
+      "nombre": "Admin Kraftwerk",
+      "apellidos": "García López",
+      "email": "admin@kraftwerk.com",
+      "password": "admin123",
+      "rol": "admin",
+      "gymId": "g1",
+      "premium": true
+    },
+    {
+      "id": "u01",
+      "nombre": "Admin Hércules",
+      "apellidos": "Martínez Ruiz",
+      "email": "admin@hercules.com",
+      "password": "admin123",
+      "rol": "admin",
+      "gymId": "g2",
+      "premium": true
+    },
+    {
+      "id": "u02",
+      "nombre": "Admin VivaGym",
+      "apellidos": "Sánchez Pérez",
+      "email": "admin@vivagym.com",
+      "password": "admin123",
+      "rol": "admin",
+      "gymId": "g3",
+      "premium": true
+    },
+    {
+      "id": "u1",
+      "nombre": "Usuario Demo",
+      "apellidos": "González Vega",
+      "email": "demo@atlas.com",
+      "password": "demo123",
+      "rol": "cliente",
+      "gymId": "g1",
+      "premium": false
+    },
+    {
+      "id": "u1779054994186",
+      "nombre": "ivan",
+      "apellidos": "ivi",
+      "email": "ivi@gmail.com",
+      "password": "123456",
+      "rol": "cliente",
+      "gymId": "g2",
+      "premium": false,
+      "dni": "11122333D",
+      "iban": "ES0123456789012345678901"
+    },
+    {
+      "id": "u1779097132501",
+      "nombre": "yeremi",
+      "apellidos": "rodriguez",
+      "email": "yr@gmail.com",
+      "password": "123456",
+      "rol": "cliente",
+      "gymId": "g2",
+      "premium": false,
+      "dni": "11122333C",
+      "iban": "ES0123456789012345678901"
+    }
+  ],
+  "clases": [
+    {
+      "id": "cl1",
+      "gymId": "g1",
+      "nombre": "Spinning",
+      "monitor": "Carlos Ruiz",
+      "descripcion": "Ciclismo indoor de alta intensidad.",
+      "duracion": 60,
+      "plazas": 20,
+      "dia": "Lunes",
+      "hora": "09:00",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl2",
+      "gymId": "g1",
+      "nombre": "CrossFit",
+      "monitor": "Laura Vega",
+      "descripcion": "Entrenamiento funcional de alta intensidad.",
+      "duracion": 45,
+      "plazas": 15,
+      "dia": "Miércoles",
+      "hora": "18:30",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl3",
+      "gymId": "g1",
+      "nombre": "Yoga",
+      "monitor": "Marta Soler",
+      "descripcion": "Posturas, respiración y meditación.",
+      "duracion": 75,
+      "plazas": 18,
+      "dia": "Viernes",
+      "hora": "10:00",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl4",
+      "gymId": "g1",
+      "nombre": "Body Pump",
+      "monitor": "Jorge Navarro",
+      "descripcion": "Barras y pesas al ritmo de la música.",
+      "duracion": 55,
+      "plazas": 25,
+      "dia": "Jueves",
+      "hora": "19:00",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl5",
+      "gymId": "g2",
+      "nombre": "Boxeo",
+      "monitor": "Andrés Morales",
+      "descripcion": "Técnica de boxeo adaptada al fitness.",
+      "duracion": 60,
+      "plazas": 12,
+      "dia": "Martes",
+      "hora": "20:00",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl6",
+      "gymId": "g2",
+      "nombre": "Pilates",
+      "monitor": "Sofía Leal",
+      "descripcion": "Fortalece el core y mejora la postura.",
+      "duracion": 60,
+      "plazas": 10,
+      "dia": "Lunes",
+      "hora": "11:00",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl7",
+      "gymId": "g2",
+      "nombre": "GAP",
+      "monitor": "Raúl Méndez",
+      "descripcion": "Glúteos, abdominales y piernas.",
+      "duracion": 45,
+      "plazas": 20,
+      "dia": "Jueves",
+      "hora": "18:00",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl8",
+      "gymId": "g3",
+      "nombre": "Zumba",
+      "monitor": "Patricia Alba",
+      "descripcion": "Baile fitness con ritmos latinos.",
+      "duracion": 55,
+      "plazas": 30,
+      "dia": "Miércoles",
+      "hora": "10:30",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl9",
+      "gymId": "g3",
+      "nombre": "TRX",
+      "monitor": "Iván Serrano",
+      "descripcion": "Entrenamiento en suspensión con el peso corporal.",
+      "duracion": 45,
+      "plazas": 16,
+      "dia": "Viernes",
+      "hora": "17:00",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl10",
+      "gymId": "g3",
+      "nombre": "Meditación",
+      "monitor": "Ana Castillo",
+      "descripcion": "Mindfulness y respiración para reducir el estrés.",
+      "duracion": 45,
+      "plazas": 15,
+      "dia": "Martes",
+      "hora": "08:30",
+      "inscritos": [],
+      "fechaFin": null
+    },
+    {
+      "id": "cl1779098079939",
+      "nombre": "Clase de Admin Hercules",
+      "monitor": "Ivi",
+      "descripcion": "",
+      "duracion": 60,
+      "plazas": 20,
+      "dia": "Jueves",
+      "hora": "16:00",
+      "gymId": "g2",
+      "inscritos": [],
+      "fechaFin": null
+    }
+  ],
+  "eventos": [
+    {
+      "id": "ev1",
+      "gymId": "g1",
+      "nombre": "Maratón Kraftwerk",
+      "fecha": "2026-06-14",
+      "descripcion": "Carrera de 10 km por el parque.",
+      "plazas": 100,
+      "inscritos": [],
+      "creadoPor": "u0"
+    },
+    {
+      "id": "ev2",
+      "gymId": "g1",
+      "nombre": "Torneo de CrossFit",
+      "fecha": "2026-07-05",
+      "descripcion": "Competición interna de WODs.",
+      "plazas": 30,
+      "inscritos": [],
+      "creadoPor": "u0"
+    },
+    {
+      "id": "ev3",
+      "gymId": "g2",
+      "nombre": "Velada de Boxeo",
+      "fecha": "2026-06-21",
+      "descripcion": "Exhibición de boxeo entre alumnos.",
+      "plazas": 80,
+      "inscritos": [
+        "u1779097132501"
+      ],
+      "creadoPor": "u01"
+    },
+    {
+      "id": "ev4",
+      "gymId": "g2",
+      "nombre": "Retiro de Pilates",
+      "fecha": "2026-08-02",
+      "descripcion": "Fin de semana de Pilates en la sierra.",
+      "plazas": 20,
+      "inscritos": [],
+      "creadoPor": "u01"
+    },
+    {
+      "id": "ev5",
+      "gymId": "g3",
+      "nombre": "Festival Zumba",
+      "fecha": "2026-06-28",
+      "descripcion": "Maratón de baile con varios monitores.",
+      "plazas": 200,
+      "inscritos": [],
+      "creadoPor": "u02"
+    },
+    {
+      "id": "ev6",
+      "gymId": null,
+      "nombre": "Congreso Atlas 2026",
+      "fecha": "2026-09-15",
+      "descripcion": "Evento anual de la red Atlas.",
+      "plazas": 500,
+      "inscritos": [],
+      "creadoPor": null
+    }
+  ],
+  "rutinasComunidad": [
+    {
+      "id": "rt001",
+      "nombre": "Full Body Principiante",
+      "descripcion": "Rutina completa para quien empieza. Trabaja todos los grupos musculares con movimientos básicos.",
+      "userId": "u0",
+      "creadoPor": "Admin Kraftwerk",
+      "ejercicios": [
+        {
+          "nombre": "Sentadilla",
+          "series": 3,
+          "reps": 12,
+          "peso": 0,
+          "descanso": 60
+        },
+        {
+          "nombre": "Flexiones",
+          "series": 3,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 60
+        },
+        {
+          "nombre": "Peso muerto rumano",
+          "series": 3,
+          "reps": 10,
+          "peso": 20,
+          "descanso": 90
+        },
+        {
+          "nombre": "Remo con mancuerna",
+          "series": 3,
+          "reps": 12,
+          "peso": 10,
+          "descanso": 60
+        },
+        {
+          "nombre": "Plancha",
+          "series": 3,
+          "reps": 30,
+          "peso": 0,
+          "descanso": 45
+        }
+      ]
+    },
+    {
+      "id": "rt002",
+      "nombre": "Empuje y Tirón",
+      "descripcion": "División clásica de push/pull para ganar fuerza y masa muscular en el tren superior.",
+      "userId": "u01",
+      "creadoPor": "Admin Hércules",
+      "ejercicios": [
+        {
+          "nombre": "Press banca",
+          "series": 4,
+          "reps": 8,
+          "peso": 60,
+          "descanso": 120
+        },
+        {
+          "nombre": "Press militar",
+          "series": 3,
+          "reps": 10,
+          "peso": 40,
+          "descanso": 90
+        },
+        {
+          "nombre": "Dominadas",
+          "series": 4,
+          "reps": 6,
+          "peso": 0,
+          "descanso": 120
+        },
+        {
+          "nombre": "Remo en polea baja",
+          "series": 3,
+          "reps": 12,
+          "peso": 50,
+          "descanso": 90
+        },
+        {
+          "nombre": "Aperturas con mancuernas",
+          "series": 3,
+          "reps": 12,
+          "peso": 12,
+          "descanso": 60
+        },
+        {
+          "nombre": "Curl de bíceps",
+          "series": 3,
+          "reps": 12,
+          "peso": 14,
+          "descanso": 60
+        }
+      ]
+    },
+    {
+      "id": "rt003",
+      "nombre": "Pierna Completa",
+      "descripcion": "Sesión dedicada al tren inferior. Cuádriceps, isquios, glúteos y gemelos.",
+      "userId": "u02",
+      "creadoPor": "Admin VivaGym",
+      "ejercicios": [
+        {
+          "nombre": "Sentadilla con barra",
+          "series": 4,
+          "reps": 8,
+          "peso": 80,
+          "descanso": 150
+        },
+        {
+          "nombre": "Prensa de piernas",
+          "series": 3,
+          "reps": 12,
+          "peso": 120,
+          "descanso": 90
+        },
+        {
+          "nombre": "Peso muerto",
+          "series": 3,
+          "reps": 8,
+          "peso": 70,
+          "descanso": 120
+        },
+        {
+          "nombre": "Extensión de cuádriceps",
+          "series": 3,
+          "reps": 15,
+          "peso": 40,
+          "descanso": 60
+        },
+        {
+          "nombre": "Curl de isquiotibiales",
+          "series": 3,
+          "reps": 12,
+          "peso": 35,
+          "descanso": 60
+        },
+        {
+          "nombre": "Elevación de gemelos",
+          "series": 4,
+          "reps": 20,
+          "peso": 0,
+          "descanso": 45
+        }
+      ]
+    },
+    {
+      "id": "rt004",
+      "nombre": "HIIT Express 20 min",
+      "descripcion": "Circuito de alta intensidad sin equipamiento. Ideal para días con poco tiempo.",
+      "userId": "u0",
+      "creadoPor": "Admin Kraftwerk",
+      "ejercicios": [
+        {
+          "nombre": "Burpees",
+          "series": 4,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 30
+        },
+        {
+          "nombre": "Saltos al cajón",
+          "series": 4,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 30
+        },
+        {
+          "nombre": "Mountain climbers",
+          "series": 4,
+          "reps": 20,
+          "peso": 0,
+          "descanso": 30
+        },
+        {
+          "nombre": "Sentadilla jump",
+          "series": 4,
+          "reps": 12,
+          "peso": 0,
+          "descanso": 30
+        }
+      ]
+    },
+    {
+      "id": "rt005",
+      "nombre": "Core y Abdomen",
+      "descripcion": "Rutina específica para fortalecer el núcleo. Perfecta como complemento de cualquier programa.",
+      "userId": "u01",
+      "creadoPor": "Admin Hércules",
+      "ejercicios": [
+        {
+          "nombre": "Plancha frontal",
+          "series": 3,
+          "reps": 45,
+          "peso": 0,
+          "descanso": 45
+        },
+        {
+          "nombre": "Crunch abdominal",
+          "series": 3,
+          "reps": 20,
+          "peso": 0,
+          "descanso": 45
+        },
+        {
+          "nombre": "Plancha lateral derecha",
+          "series": 3,
+          "reps": 30,
+          "peso": 0,
+          "descanso": 30
+        },
+        {
+          "nombre": "Plancha lateral izquierda",
+          "series": 3,
+          "reps": 30,
+          "peso": 0,
+          "descanso": 30
+        },
+        {
+          "nombre": "Elevación de piernas",
+          "series": 3,
+          "reps": 15,
+          "peso": 0,
+          "descanso": 45
+        },
+        {
+          "nombre": "Russian twist",
+          "series": 3,
+          "reps": 20,
+          "peso": 5,
+          "descanso": 45
+        }
+      ]
+    },
+    {
+      "id": "rt1779098015356",
+      "nombre": "Rutina Admin Hercules",
+      "descripcion": "Descripción simple",
+      "ejercicios": [
+        {
+          "nombre": "Press banca",
+          "series": 3,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 60
+        },
+        {
+          "nombre": "Elevacion de triceps",
+          "series": 3,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 60
+        }
+      ],
+      "userId": "u01",
+      "creadoPor": "Admin Hércules"
+    },
+    {
+      "id": "rt1779098507443",
+      "nombre": "Prueba Yeremi",
+      "descripcion": "Prueba de visualización",
+      "ejercicios": [
+        {
+          "nombre": "Extensión de Biceps",
+          "series": 3,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 60
+        }
+      ],
+      "userId": "u1779097132501",
+      "creadoPor": "yeremi"
+    }
+  ]
+}

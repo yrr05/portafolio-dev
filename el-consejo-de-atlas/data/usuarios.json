@@ -1,0 +1,107 @@
+{
+  "gyms": [
+    {
+      "id": "g1",
+      "nombre": "Kraftwerk",
+      "ciudad": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": "g2",
+      "nombre": "Hércules",
+      "ciudad": "La laguna"
+    },
+    {
+      "id": "g3",
+      "nombre": "VivaGym",
+      "ciudad": "Adeje"
+    },
+    {
+      "id": "g4",
+      "nombre": "Gofit",
+      "ciudad": "Las palmas"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "uSUPER",
+      "nombre": "Atlas",
+      "apellidos": "",
+      "email": "atlas@atlas.com",
+      "password": "atlas2026",
+      "rol": "superadmin",
+      "gymId": null,
+      "premium": true,
+      "gymsInscritos": []
+    },
+    {
+      "id": "u0",
+      "nombre": "Admin Kraftwerk",
+      "apellidos": "García López",
+      "email": "admin@kraftwerk.com",
+      "password": "admin123",
+      "rol": "admin",
+      "gymId": "g1",
+      "premium": true,
+      "gymsInscritos": [
+        "g1"
+      ]
+    },
+    {
+      "id": "u01",
+      "nombre": "Admin Hércules",
+      "apellidos": "Martínez Ruiz",
+      "email": "admin@hercules.com",
+      "password": "admin123",
+      "rol": "admin",
+      "gymId": "g2",
+      "premium": true,
+      "gymsInscritos": [
+        "g2"
+      ]
+    },
+    {
+      "id": "u02",
+      "nombre": "Admin VivaGym",
+      "apellidos": "Sánchez Pérez",
+      "email": "admin@vivagym.com",
+      "password": "admin123",
+      "rol": "admin",
+      "gymId": "g3",
+      "premium": true,
+      "gymsInscritos": [
+        "g3"
+      ]
+    },
+    {
+      "id": "u1",
+      "nombre": "Usuario Demo",
+      "apellidos": "González Vega",
+      "email": "demo@atlas.com",
+      "password": "demo123",
+      "rol": "cliente",
+      "gymId": "g1",
+      "premium": true,
+      "gymsInscritos": [
+        "g1"
+      ],
+      "dni": "12345678Z",
+      "iban": "ES0123456789012345678901"
+    },
+    {
+      "id": "u1779109168276",
+      "nombre": "Yeremi",
+      "apellidos": "Rodríguez",
+      "email": "yr@prueba.com",
+      "password": "",
+      "rol": "cliente",
+      "gymId": "g3",
+      "premium": false,
+      "gymsInscritos": [
+        "g1",
+        "g3"
+      ],
+      "dni": "51203950Q",
+      "iban": "ES1234567890098765432112"
+    }
+  ]
+}

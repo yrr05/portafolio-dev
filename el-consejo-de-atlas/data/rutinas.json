@@ -1,0 +1,284 @@
+{
+  "rutinas": [
+    {
+      "id": "rt001",
+      "nombre": "Full Body Principiante",
+      "descripcion": "Rutina completa para quien empieza. Trabaja todos los grupos musculares con movimientos básicos.",
+      "userId": "u0",
+      "creadoPor": "Admin Kraftwerk",
+      "tipo": "comunidad",
+      "ejercicios": [
+        {
+          "ejId": "ej17",
+          "nombre": "Sentadilla",
+          "series": 3,
+          "reps": 12,
+          "peso": 0,
+          "descanso": 60
+        },
+        {
+          "ejId": "ej13",
+          "nombre": "Flexiones",
+          "series": 3,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 60
+        },
+        {
+          "ejId": "ej3",
+          "nombre": "Peso muerto",
+          "series": 3,
+          "reps": 10,
+          "peso": 20,
+          "descanso": 90
+        },
+        {
+          "ejId": "ej8",
+          "nombre": "Remo con mancuerna",
+          "series": 3,
+          "reps": 12,
+          "peso": 10,
+          "descanso": 60
+        },
+        {
+          "ejId": "ej14",
+          "nombre": "Plancha frontal",
+          "series": 3,
+          "reps": 30,
+          "peso": 0,
+          "descanso": 45
+        }
+      ]
+    },
+    {
+      "id": "rt002",
+      "nombre": "Empuje y Tirón",
+      "descripcion": "División clásica de push/pull para ganar fuerza y masa muscular en el tren superior.",
+      "userId": "u01",
+      "creadoPor": "Admin Hércules",
+      "tipo": "comunidad",
+      "ejercicios": [
+        {
+          "ejId": "ej1",
+          "nombre": "Press de banca",
+          "series": 4,
+          "reps": 8,
+          "peso": 60,
+          "descanso": 120
+        },
+        {
+          "ejId": "ej4",
+          "nombre": "Press militar",
+          "series": 3,
+          "reps": 10,
+          "peso": 40,
+          "descanso": 90
+        },
+        {
+          "ejId": "ej11",
+          "nombre": "Dominadas",
+          "series": 4,
+          "reps": 6,
+          "peso": 0,
+          "descanso": 120
+        },
+        {
+          "ejId": "ej23",
+          "nombre": "Remo en polea baja",
+          "series": 3,
+          "reps": 12,
+          "peso": 50,
+          "descanso": 90
+        },
+        {
+          "ejId": "ej10",
+          "nombre": "Aperturas con mancuernas",
+          "series": 3,
+          "reps": 12,
+          "peso": 12,
+          "descanso": 60
+        },
+        {
+          "ejId": "ej6",
+          "nombre": "Curl de bíceps",
+          "series": 3,
+          "reps": 12,
+          "peso": 14,
+          "descanso": 60
+        }
+      ]
+    },
+    {
+      "id": "rt003",
+      "nombre": "Pierna Completa",
+      "descripcion": "Sesión dedicada al tren inferior. Cuádriceps, isquios, glúteos y gemelos.",
+      "userId": "u02",
+      "creadoPor": "Admin VivaGym",
+      "tipo": "comunidad",
+      "ejercicios": [
+        {
+          "ejId": "ej2",
+          "nombre": "Sentadilla con barra",
+          "series": 4,
+          "reps": 8,
+          "peso": 80,
+          "descanso": 150
+        },
+        {
+          "ejId": "ej19",
+          "nombre": "Prensa de piernas",
+          "series": 3,
+          "reps": 12,
+          "peso": 120,
+          "descanso": 90
+        },
+        {
+          "ejId": "ej3",
+          "nombre": "Peso muerto",
+          "series": 3,
+          "reps": 8,
+          "peso": 70,
+          "descanso": 120
+        },
+        {
+          "ejId": "ej20",
+          "nombre": "Extensión de cuádriceps",
+          "series": 3,
+          "reps": 15,
+          "peso": 40,
+          "descanso": 60
+        },
+        {
+          "ejId": "ej21",
+          "nombre": "Curl de isquiotibiales",
+          "series": 3,
+          "reps": 12,
+          "peso": 35,
+          "descanso": 60
+        },
+        {
+          "ejId": "ej24",
+          "nombre": "Elevación de gemelos",
+          "series": 4,
+          "reps": 20,
+          "peso": 0,
+          "descanso": 45
+        }
+      ]
+    },
+    {
+      "id": "rt004",
+      "nombre": "HIIT Express 20 min",
+      "descripcion": "Circuito de alta intensidad sin equipamiento. Ideal para días con poco tiempo.",
+      "userId": "u0",
+      "creadoPor": "Admin Kraftwerk",
+      "tipo": "comunidad",
+      "ejercicios": [
+        {
+          "ejId": "ej25",
+          "nombre": "Burpees",
+          "series": 4,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 30
+        },
+        {
+          "ejId": "ej27",
+          "nombre": "Saltos al cajón",
+          "series": 4,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 30
+        },
+        {
+          "ejId": "ej26",
+          "nombre": "Mountain climbers",
+          "series": 4,
+          "reps": 20,
+          "peso": 0,
+          "descanso": 30
+        },
+        {
+          "ejId": "ej17",
+          "nombre": "Sentadilla",
+          "series": 4,
+          "reps": 12,
+          "peso": 0,
+          "descanso": 30
+        }
+      ]
+    },
+    {
+      "id": "rt005",
+      "nombre": "Core y Abdomen",
+      "descripcion": "Rutina específica para fortalecer el núcleo. Perfecta como complemento de cualquier programa.",
+      "userId": "u01",
+      "creadoPor": "Admin Hércules",
+      "tipo": "comunidad",
+      "ejercicios": [
+        {
+          "ejId": "ej14",
+          "nombre": "Plancha frontal",
+          "series": 3,
+          "reps": 45,
+          "peso": 0,
+          "descanso": 45
+        },
+        {
+          "ejId": "ej15",
+          "nombre": "Crunch abdominal",
+          "series": 3,
+          "reps": 20,
+          "peso": 0,
+          "descanso": 45
+        },
+        {
+          "ejId": "ej16",
+          "nombre": "Elevación de piernas",
+          "series": 3,
+          "reps": 15,
+          "peso": 0,
+          "descanso": 45
+        },
+        {
+          "ejId": "ej28",
+          "nombre": "Russian twist",
+          "series": 3,
+          "reps": 20,
+          "peso": 5,
+          "descanso": 45
+        }
+      ]
+    },
+    {
+      "id": "rt1779183447367",
+      "nombre": "Prueba",
+      "descripcion": "Prueba",
+      "ejercicios": [
+        {
+          "ejId": "ej1",
+          "nombre": "Press de banca",
+          "tipo": "Barra",
+          "grupoMuscular": "Pecho",
+          "series": 3,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 60
+        },
+        {
+          "ejId": "ej4",
+          "nombre": "Press militar",
+          "tipo": "Barra",
+          "grupoMuscular": "Hombros",
+          "series": 3,
+          "reps": 10,
+          "peso": 0,
+          "descanso": 60
+        }
+      ],
+      "userId": "u1",
+      "creadoPor": "Usuario Demo",
+      "tipo": "propia"
+    }
+  ]
+}
